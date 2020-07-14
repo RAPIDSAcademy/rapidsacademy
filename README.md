@@ -8,7 +8,7 @@ This git repository is a place to get access to our guides and lessons that go a
 
 ## Get started
 
-1. **Environment**: Pick a RAPIDS-ready GPU Python notebook environment. [See our instructions](https://github.com/RAPIDSAcademy/rapidsacademy/blob/master/tutorials/security/tour/setup.ipynb) for self-hosted Jupyter, free Google Colab (slow setup), free app.blazingsql.com, and [Graphistry private cloud instance](https://www.graphistry.com/get-started) (use AWS g4dn). For free Graphistry API access, register an [Graphistry Hub account](https://www.graphistry.com/get-started).
+1. **Environment**: Pick a GPU Python notebook environment capable of a recent stable version of RAPIDS. [See our instructions](https://github.com/RAPIDSAcademy/rapidsacademy/blob/master/tutorials/security/tour/setup.ipynb) for self-hosted Jupyter, free Google Colab (slow setup), free app.blazingsql.com, and [Graphistry private cloud instance](https://www.graphistry.com/get-started) (use AWS g4dn). For free Graphistry API access, register an [Graphistry Hub account](https://www.graphistry.com/get-started).
 
 2. **Configure**: Within a notebook, clone this repository to get all the materials: 
 ```bash
