@@ -8,11 +8,11 @@ This git repository is a place to get access to our guides and lessons that go a
 
 ## Get started
 
-1. **Environment**: Pick a GPU Python notebook environment capable of a recent stable version of RAPIDS. [See our instructions](https://github.com/RAPIDSAcademy/rapidsacademy/blob/master/tutorials/security/tour/setup.ipynb) for self-hosted Jupyter, free Google Colab (slow setup), free app.blazingsql.com, and [Graphistry private cloud instance](https://www.graphistry.com/get-started) (use AWS g4dn). For free Graphistry API access, register an [Graphistry Hub account](https://www.graphistry.com/get-started).
+1. **Environment**: Get going quickly with a GPU Python notebook environment prebuilt for a recent stable version of RAPIDS. [See our instructions](https://github.com/RAPIDSAcademy/rapidsacademy/blob/master/tutorials/security/tour/setup.ipynb) for various free and self-hosted options.
 
-2. **Configure**: Within a notebook, clone this repository to get all the materials: 
-```bash
-! git --version && git clone https://github.com/RAPIDSAcademy/rapidsacademy.git && find rapidsacademy/tutorials
+2. **Tutorials**: Clone this repository by running in your shell or a notebook cell:
+```
+! git clone https://github.com/RAPIDSAcademy/rapidsacademy.git
 ```
 
 3. **Start!** [Browse our notebook tutorials on github](https://github.com/RAPIDSAcademy/rapidsacademy/tree/master/tutorials) and then open the corresponding tutorial of choice in your local install
@@ -20,14 +20,22 @@ This git repository is a place to get access to our guides and lessons that go a
 
 ## Contribute
 
-We welcome new tutorials, especially around specific general techniques and application areas, and tweaks to existing ones!
+* We welcome new tutorials, especially around specific general techniques and application areas, and tweaks to existing ones!
 
-## Contact
+* Contact staff on our main site or Slack for running	 a session
 
-Join via the latest [Slack](https://rapids.ai/community.html) channel invite
 
-## Additional resources
+## RAPIDS Academy Resources & Contact
 
-* [Welcome to BlazingSQL](https://github.com/BlazingDB/Welcome_to_BlazingSQL_Notebooks)
-* [PyGraphistry demos](https://github.com/graphistry/pygraphistry)
+* [Homepage](https://www.learnrapids.com) - See past session recordings and sign up for upcoming ones
+* [GitHub](https://github.com/RAPIDSAcademy/rapidsacademy) - All materials up for free
+* [Twitter](https://www.twitter.com/academyrapids) - Follow for updates on Twitter
+* [Slack chat](https://www.rapids.ai/community) - Discussions and Q&A on RAPIDS.ai Slack channel `#rapids_academy`
+
+
+## Partner Resources
+
+* [Welcome to BlazingSQL](https://github.com/BlazingDB/Welcome_to_BlazingSQL_Notebooks) and [BlazingSQL Notebooks](https://app.blazingsql.com)
+* [Graphistry Hub](https://www.graphistry.com/get-started) and [PyGraphistry demos](https://github.com/graphistry/pygraphistry)
 * [RAPIDS.ai get started](https://rapids.ai/start.html) and [10 Minutes to cuDF and Dask-cuDF](https://docs.rapids.ai/api/cudf/stable/10min.html)
+* [Coiled.io](https://coiled.io/) for multi-GPU Dask
